@@ -17,7 +17,6 @@ export interface IHTTPMethodParameters {
 }
 
 export function HttpMethod (params: IHTTPMethodParameters) {
-    console.log('123');
     return function (target: object, propertyKey: string, descriptor: PropertyDescriptor) {
         HTTPBuilder.addMethod(`${target.constructor['name']}.${propertyKey}`, params);
     };
