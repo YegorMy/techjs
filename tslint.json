@@ -1,0 +1,76 @@
+{
+  "extends": "tslint:latest",
+  "rules": {
+    "interface-name": [
+      true,
+      "always-prefix"
+    ],
+    "max-line-length": [true, 140],
+    "member-ordering": [true,
+      "public-before-private",
+      "static-before-instance",
+      "variables-before-functions"
+    ],
+    "quotemark": [
+      true,
+      "single"
+    ],
+    "no-construct": true,
+    "no-var-requires": false,
+    "prefer-const": true,
+    "no-eval": true,
+    "curly": true,
+    "no-string-literal": false,
+    "class-name": true,
+    "max-classes-per-file": [
+      true,
+      2
+    ],
+    "no-console": [
+      false
+    ],
+    "no-shadowed-variable": false,
+    "one-variable-per-declaration": [
+      true
+    ],
+    "no-trailing-whitespace": false,
+    "trailing-comma": [
+      false
+    ],
+    "ordered-imports": [
+      false,
+      "always"
+    ],
+    "semicolon": [true, "always", "ignore-bound-class-methods"],
+    "whitespace": [true, "check-branch", "check-operator", "check-decl"],
+    "space-before-function-paren": ["always"],
+    "typedef-whitespace": [
+      false
+    ],
+    "triple-equals": [
+      true,
+      "allow-null-check",
+      "allow-undefined-check"
+    ],
+    "indent": [
+      true,
+      "spaces",
+      4
+    ],
+    "variable-name": [true,
+      "ban-keywords",
+      "check-format",
+      "allow-leading-underscore",
+      "allow-pascal-case"
+    ],
+    "object-literal-sort-keys": false,
+    "object-literal-shorthand": false,
+    "arrow-parens": false,
+    "forin": false,
+    "radix": false,
+    "only-arrow-functions": [
+      "allow-declarations",
+      "allow-named-functions"
+    ]
+  }
+}

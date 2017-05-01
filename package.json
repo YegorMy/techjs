@@ -1,0 +1,36 @@
+{
+  "name": "techjs",
+  "version": "0.0.1-a",
+  "description": "Node.JS MySQL REST Api Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm t"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YegorMy/techjs.git"
+  },
+  "keywords": [
+    "ORM",
+    "MySQL",
+    "REST",
+    "api"
+  ],
+  "author": "YegorMY <egorsm00@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YegorMy/techjs/issues"
+  },
+  "homepage": "https://github.com/YegorMy/techjs#readme",
+  "dependencies": {
+    "@types/es6-shim": "^0.31.33",
+    "@types/node": "^7.0.14",
+    "typescript": "^2.3.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-typescript": "^3.1.6",
+    "tslint": "^5.1.0"
+  }
+}
